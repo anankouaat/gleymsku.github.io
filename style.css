@@ -3,8 +3,7 @@ body {
     padding: 20px;
     height: 100vh;
     background-color: black;
-    position: relative;
-    color: lightgray;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
