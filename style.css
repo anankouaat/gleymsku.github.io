@@ -2,7 +2,12 @@ body {
     margin: 0;
     padding: 20px;
     height: 100vh;
-    background-color: black;
+    background-image: url('https://i.postimg.cc/g2cqn5Mk/zombie.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -14,6 +19,7 @@ body {
     position: relative;
     z-index: 1;
     min-height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -25,9 +31,13 @@ a:hover {
     color: white;
 }
 
+h1, h2 {
+    margin: 20px 0 10px;
+}
+
 ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 ul li {
@@ -40,8 +50,10 @@ ul li {
     gap: 10px;
 }
 
-.social-links img {
-    margin: 5px;
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 button, .btn {
