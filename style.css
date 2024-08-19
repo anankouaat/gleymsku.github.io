@@ -65,3 +65,8 @@ button:hover, .btn:hover {
     object-fit: cover;
     margin: 20px auto;
 }
+
+.center-buttons {
+    display: flex;
+    justify-content: center;
+}
