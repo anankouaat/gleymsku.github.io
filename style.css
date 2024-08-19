@@ -2,8 +2,9 @@ body {
     margin: 0;
     padding: 20px;
     height: 100vh;
-    background: url('https://i.postimg.cc/XqFxkCFj/zombie.jpg') no-repeat center center;
+    background: url('https://i.postimg.cc/g2cqn5Mk/zombie.jpg') no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -73,10 +74,4 @@ button:hover, .btn:hover {
 .center-buttons {
     display: flex;
     justify-content: center;
-}
-
-body::after {
-    content: '';
-    display: block;
-    height: 100vh;
 }
