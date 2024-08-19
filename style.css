@@ -2,11 +2,9 @@ body {
     margin: 0;
     padding: 20px;
     height: 100vh;
-    background: url('https://i.postimg.cc/g2cqn5Mk/zombie.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: black;
     position: relative;
-    background-color: #000;
+    color: lightgray;
 }
 
 .container {
@@ -16,16 +14,15 @@ body {
     text-align: center;
     position: relative;
     z-index: 1;
-    color: lightgrey;
     min-height: 100vh;
 }
 
 h1, h2 {
-    color: lightgrey;
+    color: lightgray;
 }
 
 a {
-    color: lightgrey;
+    color: lightgray;
     text-decoration: none;
 }
 
@@ -53,7 +50,7 @@ ul li {
 }
 
 button, .btn {
-    background-color: darkgrey;
+    background-color: darkgray;
     color: black;
     border: none;
     padding: 10px 20px;
@@ -62,7 +59,7 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
-    background-color: grey;
+    background-color: gray;
 }
 
 .profile-photo {
