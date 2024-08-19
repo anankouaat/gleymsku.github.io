@@ -16,10 +16,6 @@ body {
     min-height: 100vh;
 }
 
-h1, h2 {
-    color: lightgray;
-}
-
 a {
     color: lightgray;
     text-decoration: none;
