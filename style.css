@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    padding: 20px;
-    height: 100vh;
+    padding: 0;
     background-image: url('https://i.postimg.cc/g2cqn5Mk/zombie.jpg');
     background-size: cover;
     background-position: center;
@@ -18,7 +17,6 @@ body {
     text-align: center;
     position: relative;
     z-index: 1;
-    min-height: 100vh;
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -46,14 +44,9 @@ ul li {
 
 .social-links {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.social-links {
-    display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 button, .btn {
